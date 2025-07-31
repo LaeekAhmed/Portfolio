@@ -4,6 +4,12 @@ import {FaGithub, FaExternalLinkAlt} from "react-icons/fa";
 export default function Projects() {
   const projects = [
     {
+      title: "Auto-ML Platform ⚙️",
+      description:
+        "Collaborated in an agile team of 12 to architect and develop a platform to automate machine learning model generation using Google Cloud services.",
+      repoLink: "https://github.com/DSC-McMaster-U/Auto-ML",
+    },
+    {
       title: "TTC delay Analytics 🚌",
       description:
         "Analyzed TTC bus, subway & streetcar delay data to identify delay hotspots, root causes, and find valuable insights by creating an ETL pipeline and displaying them in a dashboard",
@@ -14,8 +20,8 @@ export default function Projects() {
       title: "Notespot 📚",
       description:
         "Note sharing Web-App which allows users to share, download and upload notes (pdfs, docs, images etc)",
-      liveLink: "https://note-spot-eight.vercel.app/",
-      repoLink: "https://github.com/LaeekAhmed/NoteSpot",
+      liveLink: "https://notespot.ca/",
+      repoLink: "https://github.com/LaeekAhmed/Notespot",
     },
     {
       title: "Flypedia ✈️",
@@ -23,12 +29,6 @@ export default function Projects() {
         "Website built using React and Next.js to view and search for flights and flight details. Integrated real-time flight details from the Airlabs API to provide comprehensive information on 3000+ flights",
       liveLink: "https://flypedia2.vercel.app/",
       repoLink: "https://github.com/LaeekAhmed/flypedia",
-    },
-    {
-      title: "Code Autograder 📝",
-      description:
-        "Collaborated with a fellow TA to develop an automated code grading system to evaluated students' code submissions for a programming course at McMaster University.",
-      repoLink: "https://github.com/LaeekAhmed/Coding-Autograder",
     },
     {
       title: "NYC taxi data Analytics 🚕",
