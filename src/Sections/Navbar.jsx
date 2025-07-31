@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from "react";
-import {FaBars, FaTimes, FaGithub, FaLinkedin, FaFilePdf} from "react-icons/fa";
+import {FaBars, FaTimes, FaGithub, FaLinkedin} from "react-icons/fa";
 import {PiPaperPlaneTiltFill} from "react-icons/pi";
 import {Link} from "react-scroll";
 
