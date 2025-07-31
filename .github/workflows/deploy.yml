@@ -10,6 +10,7 @@ permissions:
   pages: write
   id-token: write
 
+# This prevents multiple builds from running at the same time but doesn't cancel existing ones
 concurrency:
   group: "pages"
   cancel-in-progress: false

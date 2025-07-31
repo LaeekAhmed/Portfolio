@@ -18,30 +18,15 @@ You may also see any lint errors in the console.
 This portfolio automatically deploys to GitHub Pages whenever changes are pushed to the `main` branch.
 
 1. Push your changes to the `main` branch
-2. GitHub Actions will automatically build and deploy to GitHub Pages
-3. The site will be available at: https://LaeekAhmed.github.io/portfolio
-
-### Deployment
-
-This portfolio automatically deploys to GitHub Pages whenever changes are pushed to the `main` branch.
-
-
-1. Push your changes to the `main` branch
 2. GitHub Actions will automatically build and deploy to GitHub Pages via the [deploy.yml](.github/workflows/deploy.yml) workflow file
 3. The site will be available at: https://LaeekAhmed.github.io/portfolio
 
-Alternatively, you can deploy manually by running:
+### How it works
 
-```
-npm run deploy
-```
+GitHub Actions automates deployment as follows:
+- When you push to `main`, GitHub Actions checks out your code and runs `npm ci` to install dependencies, then builds the React app using `npm run build`. 
+- This generates static files in the `build` directory.
+- The workflow then uploads the contents of the `build` directory as an artifact. This artifact is a packaged version of your built site.
+- In the deploy step, GitHub Actions picks up this uploaded artifact and publishes it directly to GitHub Pages—no need for a separate `gh-pages` branch. The deployment is fully automated and happens on every push to `main`.
 
-OR 
-
-```
-npm run deploy -- -m "custom message"
-```
-
-This will build the app and push the built files to the `gh-pages` branch which will be used by GitHub Pages to deploy the site.
-
-To understand the entire process [read this](https://github.com/gitname/react-gh-pages?tab=readme-ov-file#deploying-a-react-app-to-github-pages)
+For more information about GitHub Actions deployment, see the [workflow file](.github/workflows/deploy.yml).
