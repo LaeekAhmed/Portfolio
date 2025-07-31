@@ -14,44 +14,13 @@ const About = () => {
         <div className="m-auto flex flex-col justify-center h-full">
           <div className="p-4 sm:p-5 shadow-md border-2 border-gray-600 rounded-xl mx-auto relative bg-gray-800">
             <p className="text-sm sm:text-base leading-relaxed">
-              I am a Computer Science student 💻 at McMaster University with
-              overall 4 years of experience. My journey began with Python in
-              high school, where I learned the basics of programming, logic,
-              databases, and file systems. In my final year of high school 🎓, I
-              collaborated with two teammates on our first project: a Graphical
-              User Interface (GUI) database system - The Hospital Management
-              System 🏥 built using Tkinter Python and SQLite, which I further
-              improved in May 2022.
+              Hey there! I’m a 4th year Computer Science student at McMaster University who loves building things with code and learning how tech can solve real problems. I got my start in high school with Python, where I built a hospital management system from scratch (with plenty of trial and error along the way).
               <br />
               <br />
-              Upon entering university, I expanded my knowledge to include
-              multiple languages such as Haskell, C++/C, Java, and Elm. I delved
-              into various topics 📝 including Data Structures and Algorithms,
-              Discrete Mathematics, Object-Oriented Programming, Development
-              Basics, Computer Architecture, Databases, and Software
-              Development, among others.
+              Since then, I’ve picked up languages like JavaScript, C++, Java, and Haskell, and tackled courses in everything from algorithms to databases. I’ve built web apps, data pipelines, microservices, managed infrastructure, and even helped automate machine learning with Google Developer Student Clubs. At IBM, I interned as a software engineer, working on features and infrastructure for a learning platform used by millions.
               <br />
               <br />
-              Alongside my academic pursuits, I ventured into web development,
-              mastering tools like React.js, Node.js, Express, MongoDB, and
-              HTML/CSS. I applied this knowledge to create multiple projects,
-              each one allowing me to implement and reinforce newly acquired
-              skills.
-              <br />
-              <br />
-              Throughout my journey, I've had the opportunity to work with
-              several teams to create various full-stack web applications. These
-              collaborative experiences not only enhanced my technical skills
-              but also improved my ability to work effectively in a team
-              environment. We successfully deployed these applications, giving
-              me valuable insights into the entire development lifecycle, from
-              conception to staging and to production 🚀
-              <br />
-              <br />
-              My current goal 🎯 is to gain more hands-on experience in the
-              field by working for a company where I can apply and expand upon
-              what I've learned. I'm excited to contribute my skills and
-              continue growing as a software developer!
+              I’ve learned a ton from working with different teams and jumping into new challenges. Now, I’m looking for my next adventure as a software or data engineer, ready to build cool things, learn a lot, and hopefully make someone’s life a little easier along the way. I’m particularly interested in data engineering, infrastructure, devops, and cloud related technologies, and I’m always looking for opportunities to learn new tools and frameworks.
             </p>
           </div>
         </div>

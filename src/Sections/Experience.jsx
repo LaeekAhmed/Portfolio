@@ -13,7 +13,7 @@ export default function Experience() {
       title: "Software Engineering Intern 🐝",
       company: "IBM Canada",
       location: "Markham, ON",
-      date: "Jan 2024 – Present",
+      date: "Jan 2024 – Apr 2025",
       description:
         "Working on IBM Skills Network, a large-scale content syndication and learning management system deployed across 4 continents and several data centers, with millions of users worldwide.",
       logo: ibmLogo,
