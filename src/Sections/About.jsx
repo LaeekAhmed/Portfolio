@@ -17,10 +17,10 @@ const About = () => {
               Hey there! I’m a 4th year Computer Science student at McMaster University who loves building things with code and learning how tech can solve real problems. I got my start in high school with Python, where I built a hospital management system from scratch (with plenty of trial and error along the way).
               <br />
               <br />
-              Since then, I’ve picked up languages like JavaScript, C++, Java, and Haskell, and tackled courses in everything from algorithms to databases. I’ve built web apps, data pipelines, microservices, managed infrastructure, and even helped automate machine learning with Google Developer Student Clubs. At IBM, I interned as a software engineer, working on features and infrastructure for a learning platform used by millions.
+              Since then, I’ve picked up languages like JavaScript, C++, Java, and Haskell, and tackled courses in everything from algorithms to databases and networking. I’ve built web apps, data pipelines, microservices, managed infrastructure, and even helped automate machine learning with Google Developer Student Clubs. At IBM, I interned as a software engineer, working on features and infrastructure for a learning platform used by millions.
               <br />
               <br />
-              I’ve learned a ton from working with different teams and jumping into new challenges. Now, I’m looking for my next adventure as a software or data engineer, ready to build cool things, learn a lot, and hopefully make someone’s life a little easier along the way. I’m particularly interested in data engineering, infrastructure, devops, and cloud related technologies, and I’m always looking for opportunities to learn new tools and frameworks.
+              I’ve learned a ton from working with different teams and jumping into new challenges. Now, I’m looking for my next adventure, ready to build cool things, learn a lot, and hopefully make someone’s life a little easier along the way. I’m particularly interested in data engineering, infrastructure, devops, and cloud related technologies, and I’m always looking for opportunities to learn something new!
             </p>
           </div>
         </div>
